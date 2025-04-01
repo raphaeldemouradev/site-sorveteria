@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bom Gosto</title>
+    <link rel="shortcut icon" href="imagens/icon bom gosto.jpeg" type="image/x-icon">
+    <style>
+        :root {
+            --cor0: #e3eefa;
+            --cor1: #89CAD9;
+            --cor2: #551a77;
+            --cor3: #ce0700;
+            --cor4: #000000;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: var(--cor1);
+            padding-top: 40px;
+            min-height: 60px;
+        }
+
+        header > h1 {
+            color: var(--cor3);
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        header > p {
+            color: var(--cor4);
+            font-size: 1.1em;
+            text-align: left;
+            text-indent: 10px;
+            font-weight: bold;
+            padding-right: 20px;
+            padding-left: 20px;
+            text-shadow: 0px 0px 1px black;
+        }
+
+        nav {
+            background-color: var(--cor1);
+            padding: 10px;
+        }
+
+        nav > a {
+            color: var(--cor3);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 10px;
+            text-shadow: 0px 1px 1px black;
+        }
+
+        nav > a:hover {
+            background-color: var(--cor0);
+        }
+
+        .açai {
+            background-color: var(--cor0);
+            padding-bottom: 13px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        main {
+            background-color: var(--cor0);
+            min-height: 500px;
+            max-width: 1000px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .copos {
+            font-size: 1.2em;
+        }
+
+        main h1 {
+            color: var(--cor2);
+            text-indent: 20px;
+            font-weight: bolder;
+            padding: 10px;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        main h2 {
+            color: var(--cor2);
+            text-indent: 20px;
+            font-weight: bolder;
+            padding: 10px;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        main p {
+            font-style: italic;
+            margin-left: 30px;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding: 5px;
+            margin-left: 0px;
+        }
+
+        li {
+            padding: 5px;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        div {
+            background-color: rgb(0, 0, 0);
+            padding: 2px;
+            border-radius: 10px;
+            margin-left: 80px;
+            margin-right: 80px;
+        }
+
+        div > p {
+            background-color: rgb(255, 82, 59);
+            text-align: center;
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: bold;
+            margin: 2px;
+            border-left-width: 7px;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: var(--cor1);
+            color: var(--cor3);
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px black;
+            box-shadow: 1px 1px 3px black;
+        }
+    </style>
+</head>
+<body>
+        <header>
+            <h1>Sejá Bem-vindo(a)</h1>
+            <p>Confira nossos cardapios abaixo:</p>
+        </header>
+        <nav>
+            <a href="index.html">Sorvetes</a>
+            <a href="salgados-pag.html">Salgados</a>
+            <a class="açai">Açaí</a>
+            <a href="tortas-pag.html">Tortas</a>
+        </nav>
+        <main>
+            <h1>Copos:</h1>
+            <ul class="copos">
+                <li>Copo de 200 ML &#10142; $12,00</li>
+                <li>Copo de 330 ML &#10142; $17,00</li>
+                <li>Copo de 500 ML &#10142; $27,00</li>
+            </ul>
+    
+            <h2>Acompanhamentos:</h2>
+            <ul>
+                <li>Banana</li>
+                <li>Creme de leite ninho</li>
+                <li>Creme de leite morango</li>
+                <li>Confete</li>
+                <li>Granola</li>
+                <li>Leite condensado</li>
+                <li>Leite em pó</li>
+                <li>Nutella</li>
+                <li>Paçoca</li>
+                <li>Ovomaltine</li>
+            </ul>
+
+            <div>
+                <p>3 Acompanhamentos Grátis</p>
+            </div>
+        </main>
+        <footer>
+            <p>Site Oficial</p>
+        </footer>
+    </body>
+</head>

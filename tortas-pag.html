@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bom Gosto</title>
+    <link rel="shortcut icon" href="imagens/icon bom gosto.jpeg" type="image/x-icon">
+    <style>
+        :root {
+            --cor0: #f5ecda;
+            --cor1: #89CAD9;
+            --cor2: #8c5311;
+            --cor3: #ce0700;
+            --cor4: #000000;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: var(--cor1);
+            padding-top: 40px;
+            min-height: 60px;
+        }
+
+        header > h1 {
+            color: var(--cor3);
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        header > p {
+            color: var(--cor4);
+            font-size: 1.1em;
+            text-align: left;
+            text-indent: 10px;
+            font-weight: bold;
+            padding-right: 20px;
+            padding-left: 20px;
+            text-shadow: 0px 0px 1px black;
+        }
+
+        nav {
+            background-color: var(--cor1);
+            padding: 10px;
+        }
+
+        nav > a {
+            color: var(--cor3);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 10px;
+            text-shadow: 0px 1px 1px black;
+        }
+
+        nav > a:hover {
+            background-color: var(--cor0);
+        }
+
+        .tortas {
+            background-color: var(--cor0);
+            padding-bottom: 13px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        main {
+            background-color: var(--cor0);
+            min-height: 500px;
+            max-width: 1000px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        main h1 {
+            color: var(--cor2);
+            text-indent: 20px;
+            font-weight: bolder;
+            padding: 10px;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        main h2 {
+            color: var(--cor2);
+            text-indent: 20px;
+            font-weight: bolder;
+            padding: 10px;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        main p {
+            font-style: italic;
+            margin-left: 30px;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding: 5px;
+            margin-left: 0px;
+        }
+
+        li {
+            padding: 5px;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        i {
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        footer {
+            background-color: var(--cor1);
+            color: var(--cor3);
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            text-shadow: 1px 1px 1px black;
+            box-shadow: 1px 1px 3px black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sejá Bem-vindo(a)</h1>
+        <p>Confira nossos cardapios abaixo:</p>
+    </header>
+    <nav>
+        <a href="index.html">Sorvetes</a>
+        <a href="salgados-pag.html">Salgados</a>
+        <a href="açai-pag.html">Açaí</a>
+        <a class="tortas">Tortas</a>
+    </nav>
+    <main>
+        <h1>Tortas:</h1>
+        <ul>
+            <li>Torta de Limão - <i>$8,00 o Pedaço</i></li>
+            <li>Torta de Banana - <i>$9,00 o Pedaço</i></li>
+        </ul>
+
+        <h2>Também temos:</h2>
+        <ul>
+            <li>Pudim - <i>$5,00 o Pedaço</i></li>
+            <li>Banoffe - <i>$8,00 o Potinho</i></li>
+        </ul>
+    </main>
+    <footer>
+        <p>Site Oficial</p>
+    </footer>
+</body>
+</head>
