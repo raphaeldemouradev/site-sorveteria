@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bom Gosto</title>
+    <link rel="shortcut icon" href="../imagens/icon bom gosto.jpeg" type="image/x-icon">
+    <style>
+        :root {
+    --cor0: #ebebeb;
+    --cor1: #7bc6e9;
+    --cor2: #8C2711;
+    --cor3: #ce0700;
+    --cor4: #000000;
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* CABEÇA */
+
+    header {
+        background-color: var(--cor1);
+        padding-top: 30px;
+    }
+
+    button {
+        background-color: rgb(243, 242, 242);
+        margin-left: 10px;
+        border: 2px solid red;
+        padding: 5px;
+    }
+
+    button > a {
+        color: black;
+        text-decoration: none;
+    }
+
+    button:hover {
+        background-color: rgb(214, 214, 214);
+    }
+
+    header > h1 {
+        color: var(--cor3);
+        text-align: center;
+        margin-bottom: 20px;
+        text-shadow: 1px 2px 2px black;
+    }
+
+    header > p { 
+        color: var(--cor4);
+        font-size: 1.1em;
+        text-align: center;
+        font-weight: bolder;
+        padding-bottom: 15px;
+        text-shadow: 0px 0px 1px black;
+    }
+
+    nav { 
+        background-color: var(--cor1);
+        padding-bottom: 14px;
+        text-align: center;
+    }
+
+    nav > a { 
+        color: var(--cor3);
+        text-decoration: none;
+        font-weight: bolder;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-shadow: 1px 1px 1px black;
+        margin: 0px 2px;
+    }
+
+    nav > a:hover {
+        background-color: var(--cor0);
+    }
+
+    nav > a:visited { 
+        background-color: none;
+    }
+
+    nav > a:active { 
+        background-color: none;
+    }
+
+    .Sorvete {
+        background-color: var(--cor0);
+        padding-bottom: 15px; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    /* CORPO */
+
+    main { 
+        background-color: var(--cor0);
+        min-height: 500px;
+        max-width: 1000px;
+        margin: auto;
+        padding: 5px;
+    }
+
+    main h1 { 
+        color: var(--cor2);
+        font-weight: bolder;
+        padding-top: 10px;
+        padding-left: 20px;
+        text-shadow: 1px 1px 2px black;
+        text-decoration: underline;
+    }
+
+    main h2 {
+        color: var(--cor2);
+        text-align: center;
+        font-weight: bolder;
+        padding: 5px; 
+        text-shadow: 1px 1px 2px black;
+        text-decoration: underline;
+    }
+
+    ul { 
+        list-style-position: inside;
+        padding: 5px;
+    }
+
+    li {
+        padding: 5px;
+        font-weight: bold;
+        font-size: 1.4em;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    aside {
+        font-size: 11px;
+        font-weight: bolder;
+        display: inline-block;
+        text-align: justify;
+    }
+
+    li > a {
+        color: black;
+        font-size: 14px;
+        text-decoration: dashed;
+        font-style: italic;
+        font-weight: normal;
+                    
+    }
+
+    li > a:hover {
+        text-decoration: underline;
+    }
+
+    i {
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+    /* RODA PÉ */
+
+    footer {
+        background-color: var(--cor1);
+        color: var(--cor3);
+        text-align: center;
+        padding: 15px;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px black;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <button>
+            <a href="../index.html">Inicio</a>
+        </button>
+        <h1>Sejá Bem-vindo(a)</h1>
+        <p>Confira nossos cardapios abaixo:</p>
+    </header>
+    <nav>
+        <a class="Sorvete">Sorvete</a>
+        <a href="salgados-pag.html">Salgados</a>
+        <a href="açai-pag.html">Açaí</a>
+        <a href="tortas-pag.html">Tortas</a>
+    </nav>
+    <main>
+        <h1>Casquinhas:</h1>
+        <ul class="casquinhas">
+            <li>Casquinha, <i>2 sabores - R$6,00</i></li>
+            <li>Cascão, <i>2 sabores - R$8,00</i></li>
+            <li>Cestinha, <i>3 sabores - R$10,00</i></li>
+        </ul>
+
+        <h1>Sabores:</h1>
+        <ul>
+            <li>Abacaxi ao Vinho</li>
+            <li>Banoffe</li>
+            <li>Blue ice</li>
+            <li>Capuccino</li>
+            <li>Chocolate</li>
+            <li>Flocos</li>
+            <li>KinderOvo</li>
+            <li>Laka</li>
+            <li>Maracujá</li>
+            <li>Menta</li>
+            <li>Milho verde</li>
+            <li>Morango</li>
+            <li>Pedacinho do céu</li>
+            <li>Rafaello</li>
+            <li>Unicórnio</li>
+        </ul>
+
+        <h2>Também temos:</h2>
+
+        <section>
+            <ul>
+                <aside>
+                    <li>Açaí - <a href="açai-pag.html">ver mais</a></li>
+                    <li>Picolé <i>- R$2,00</i></li>
+                    <li>Potes de 2L <i>- R$35,00</i></li>
+                </aside>
+                <aside>
+                    <li>Geladinho Americano <i>- R$0,50</i></li>
+                    <li>Geladinho de Leite <i>- R$1,50</i></li>
+                    <li>Ituzinho <i>- R$3,50</i></li>
+                </aside>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Site Oficial</p>
+    </footer>
+</html>
