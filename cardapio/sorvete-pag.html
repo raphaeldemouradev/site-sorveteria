@@ -50,7 +50,7 @@
         color: var(--cor3);
         text-align: center;
         margin-bottom: 20px;
-        text-shadow: 1px 2px 2px black;
+        text-shadow: 1px 1px 2px black;
     }
 
     header > p { 
@@ -137,15 +137,11 @@
         font-size: 1.4em;
     }
 
-    section {
-        text-align: center;
-    }
-
-    aside {
-        font-size: 11px;
-        font-weight: bolder;
+    section, .primelist, .seclist {
+        padding: 5px 0px 5px 0px;
+        text-align: left;
         display: inline-block;
-        text-align: justify;
+        font-size: 10px;
     }
 
     li > a {
@@ -222,17 +218,15 @@
         <h2>Também temos:</h2>
 
         <section>
-            <ul>
-                <aside>
-                    <li>Açaí - <a href="açai-pag.html">ver mais</a></li>
-                    <li>Picolé <i>- R$2,00</i></li>
-                    <li>Potes de 2L <i>- R$35,00</i></li>
-                </aside>
-                <aside>
-                    <li>Geladinho Americano <i>- R$0,50</i></li>
-                    <li>Geladinho de Leite <i>- R$1,50</i></li>
-                    <li>Ituzinho <i>- R$3,50</i></li>
-                </aside>
+            <ul class="primelist">
+                <li>Açaí - <a href="açai-pag.html">ver mais</a></li>
+                <li>Picolé <i>- R$2,00</i></li>
+                <li>Potes de 2L <i>- R$35,00</i></li>
+            </ul>
+            <ul class="seclist">
+                <li>Geladinho Americano <i>- R$0,50</i></li>
+                <li>Geladinho de Leite <i>- R$1,50</i></li>
+                <li>Ituzinho <i>- R$3,50</i></li>
             </ul>
         </section>
     </main>

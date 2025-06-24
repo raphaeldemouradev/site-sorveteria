@@ -32,7 +32,7 @@ a {
     color: white;
     font-weight: bolder;
     text-indent: 15px;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 1px black;
     margin-top: 25px;
 }
 
@@ -51,7 +51,7 @@ nav {
 section.imgprincipal {
     background-color: orange;
     height: 50vh;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
     background-image: url(./imagens/banner-principal-bomgosto.png);
     background-repeat: no-repeat;
@@ -60,10 +60,11 @@ section.imgprincipal {
 
 section.imgs {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 aside {
+    margin: auto;
     width: auto;
     display: inline-flex;
 }
@@ -72,13 +73,11 @@ div {
     background-color: gray;
     border: 1px solid black;
     border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    box-shadow: 1px 1px 5px black;
+    margin: 0px 5px 5px 5px;
+    box-shadow: 1px 1px 3px black;
 
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
 
     background-repeat: no-repeat;
     background-position: center center;
@@ -102,7 +101,15 @@ div.açai {
 }
 
 div.torta {
-    background-image: url(./imagens/torta-img.png);
+    background-image: url(https://www.receiteria.com.br/wp-content/uploads/torta-de-limao-facil-capa.jpeg);
+}
+
+div.pudim {
+    background-image: url(./imagens/comida-de-caramelo-brasileiro.png);
+}
+
+div.empadao {
+    background-image: url(https://supermercadoemporiobrasil.com.br/wp-content/uploads/2021/10/shutterstock_2010761132.png);
 }
 
 /* footer */
