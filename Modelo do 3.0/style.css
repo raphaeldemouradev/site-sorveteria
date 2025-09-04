@@ -15,7 +15,6 @@ body {
 }
 
 /* cabeça */
-
 .containerheader {
     display: flex;
     background-color: var(--cor1);
@@ -49,7 +48,6 @@ nav a:hover {
 }
 
 /* corpo */
-
 section.destaque {
     background-color: var(--corDestaque);
     height: 50vh;
@@ -65,28 +63,44 @@ section.destaque img {
     height: 100%;
 }
 
+/* img produtos */
 section.produtos {
-    padding: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-section.produtos div {
-    background-color: #582612;
+div.box-produtos {
+    background-color: gray;
     border: 1px solid black;
-    width: auto;
-    max-width: 400px;
-    height: 200px;
-    margin-bottom: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 30vw;
+    height: 40vh;
+}
+
+@media screen and (max-width: 870px) {
+    section.produtos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.box-produtos {
+        width: 45vw;
+        height: 25vh;
+    }
 }
 
 /* footer */
-
-footer > p {
-    font-weight: bolder;
+footer {
+    margin-top: 10px;
 }
 
-footer {
-    background-color: var(--cor1);
-    text-align: left;
-    padding: 10px;
+footer div.footer-copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
